@@ -1,0 +1,37 @@
+---
+title: "Documento de prueba"
+author: "Andres"
+date: "24/3/2021"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 2
+lang: es-ES
+---
+
+## R Markdown example
+
+<!--  Plain text -->
+This is an R Markdown example document.
+
+<!--  Equation -->
+The equation will be as following expression:
+$x[n] = x[n] + x[n-1] + x[n-2]$
+
+<!--  Image -->
+![Fotografia bonita](images/foto.jpg)
+
+<!--  Code example -->
+
+R code:
+
+```{r}
+data(iris)
+head(iris)
+```
+
+```{r echo=TRUE}
+plot(iris$Sepal.Length, iris$Sepal.Width)
+```
+
+
